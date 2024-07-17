@@ -27,8 +27,4 @@ jobs:
         ssh -o StrictHostKeyChecking=no $REMOTE_USER@$REMOTE_HOST << 'EOF'
           cd /home/Nikinikk/back-front-dock
           sudo git pull origin master
-          docker-compose up -d
-          sleep 60s
-          docker-compose logs
-          docker-compose down
         EOF
