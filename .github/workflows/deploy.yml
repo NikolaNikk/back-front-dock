@@ -21,7 +21,7 @@ jobs:
     - name: Deploy to Remote Server
       env:
         REMOTE_USER: Nikinikk
-        REMOTE_HOST: 20.251.140.210
+        REMOTE_HOST: 51.107.213.69
         #REMOTE_PATH: /var/www/html/nginxTest
       run: |
         ssh -o StrictHostKeyChecking=no $REMOTE_USER@$REMOTE_HOST << 'EOF'
