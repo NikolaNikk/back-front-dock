@@ -28,5 +28,5 @@ jobs:
           cd /home/Nikinikk/back-front-dock
           git fetch --all
           git pull origin master
-          docker-compose up -d
+
         EOF
